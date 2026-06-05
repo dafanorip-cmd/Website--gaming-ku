@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Zone - Terbaik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0a0f1e, #0a1a2a);
+            color: #0ff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+            margin-top: 30px;
+            animation: glitch 2s infinite;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 0 0 5px #0ff; }
+            50% { text-shadow: 0 0 20px #f0f, 0 0 5px #0ff; }
+            100% { text-shadow: 0 0 5px #0ff; }
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .game-card {
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #0ff;
+            border-radius: 15px;
+            padding: 20px;
+            width: 260px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #0ff;
+            border-color: #f0f;
+        }
+        .game-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .game-card p {
+            font-size: 14px;
+            color: #ccc;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 20px;
+            background: #0ff;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            background: #f0f;
+            color: #fff;
+            box-shadow: 0 0 10px #f0f;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎮 GAMING ZONE 🎮</h1>
+    <p style="margin-bottom: 20px;">Rekomendasi Game Terbaik + Download Gratis!</p>
+
+    <div class="container">
+        <div class="game-card">
+            <h3>⚔️ Valorant</h3>
+            <p>FPS taktis dengan agent unik. 5v5, skill & aim menentukan segalanya.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+        <div class="game-card">
+            <h3>🌍 Genshin Impact</h3>
+            <p>Open world anime RPG. Jelajahi Teyvat, kumpulkan karakter.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+        <div class="game-card">
+            <h3>🚗 GTA V</h3>
+            <p>Game open world legendaris. Kriminal, balapan, cerita seru.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+        <div class="game-card">
+            <h3>🧱 Minecraft</h3>
+            <p>Bangun apapun yang lo mau. Survival atau kreatif bebas.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+        <div class="game-card">
+            <h3>🔥 Mobile Legends</h3>
+            <p>MOBA 5v5 di HP. Seru, cepat, banyak hero keren.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+        <div class="game-card">
+            <h3>⚡ Call of Duty</h3>
+            <p>Battle royale & multiplayer FPS dengan grafis gila.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+    </div>
+    <footer>© Gaming Zone - Dibuat dengan 🔥 oleh ZAMZZZ | Update setiap hari</footer>
+</body>
+</html>
